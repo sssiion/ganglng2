@@ -1,13 +1,13 @@
 package com.example.ganglng.config;
 
-import com.example.ganglng.Entity.BusRoute;
-import com.example.ganglng.Entity.BusStop;
-import com.example.ganglng.Entity.BusTimetable;
-import com.example.ganglng.Entity.RouteSequence;
-import com.example.ganglng.Repository.BusRouteRepository;
-import com.example.ganglng.Repository.BusStopRepository;
-import com.example.ganglng.Repository.BusTimetableRepository;
-import com.example.ganglng.Repository.RouteSequenceRepository;
+import com.example.ganglng.entity.BusRoute;
+import com.example.ganglng.entity.BusStop;
+import com.example.ganglng.entity.BusTimetable;
+import com.example.ganglng.entity.RouteSequence;
+import com.example.ganglng.repository.BusRouteRepository;
+import com.example.ganglng.repository.BusStopRepository;
+import com.example.ganglng.repository.BusTimetableRepository;
+import com.example.ganglng.repository.RouteSequenceRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;

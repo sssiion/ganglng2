@@ -1,6 +1,6 @@
-package com.example.ganglng.Repository;
+package com.example.ganglng.repository;
 
-import com.example.ganglng.Entity.RouteSequence;
+import com.example.ganglng.entity.RouteSequence;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

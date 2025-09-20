@@ -1,4 +1,4 @@
-package com.example.ganglng.Entity;
+package com.example.ganglng.entity;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;

@@ -1,4 +1,4 @@
-package com.example.ganglng.Entity;
+package com.example.ganglng.entity;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

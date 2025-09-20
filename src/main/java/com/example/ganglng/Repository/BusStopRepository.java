@@ -1,7 +1,7 @@
-package com.example.ganglng.Repository;
+package com.example.ganglng.repository;
 
 
-import com.example.ganglng.Entity.BusStop;
+import com.example.ganglng.entity.BusStop;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
