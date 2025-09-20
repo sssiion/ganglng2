@@ -15,7 +15,7 @@ public interface BusStopRepository extends JpaRepository<BusStop, Integer> {
     @Query(value = "SELECT * FROM bus_stop s WHERE " +
             "(6371 * acos(cos(radians(:latitude)) * cos(radians(s.latitude)) * " +
             "cos(radians(s.longitude) - radians(:longitude)) + " +
-            "sin(radians(:latitude)) * sin(radians(s.latitude)))) * 0 <= :radius",
+            "sin(radians(:latitude)) * sin(radians(s.latitude)))) * 1000 <= :radius",
             nativeQuery = true)
     List<BusStop> findNearbyStops(@Param("latitude") double latitude,
                                   @Param("longitude") double longitude,

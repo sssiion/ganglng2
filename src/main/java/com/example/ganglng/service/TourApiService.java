@@ -1,4 +1,4 @@
-package com.example.ganglng.rervice;
+package com.example.ganglng.service;
 
 import com.example.ganglng.entity.BusStop;
 import com.example.ganglng.dto.ApiResponse;

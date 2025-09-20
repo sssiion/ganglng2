@@ -2,7 +2,7 @@ package com.example.ganglng.controller;
 
 
 
-import com.example.ganglng.rervice.RecommendationService;
+import com.example.ganglng.service.RecommendationService;
 import com.example.ganglng.dto.RecommendationResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
